@@ -1,0 +1,15 @@
+language: python
+sudo: false
+python:
+    - "3.4"
+    - "3.5"
+install:
+    - pip install -qU pip wheel
+    - pip install -q -U -r requirements_test.txt
+script:
+    - flake8 cockatiel unit_tests functional_tests
+    - cd tests
+    - python run_integration_tests.py
+cache:
+    directories:
+        - $HOME/.cache/pip

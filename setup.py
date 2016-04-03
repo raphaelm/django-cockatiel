@@ -28,6 +28,9 @@ setup(
     ],
 
     keywords='django file storage media backend replicated',
+    install_requires=[
+        'Django>=1.8', 'requests'
+    ],
     extras_require={
         'dev': ['pytest', 'flake8'],
     },
