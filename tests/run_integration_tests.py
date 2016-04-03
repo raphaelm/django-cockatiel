@@ -6,9 +6,8 @@ import time
 from multiprocessing import Process
 
 import pytest
-from cockatiel.server import run
-
 import settings
+from cockatiel.server import run
 
 sys.path.insert(0, os.path.abspath('..'))
 
@@ -48,6 +47,7 @@ p.start()
 settings.COCKATIEL_STORAGE_OPTIONS['STORAGE_NODES'].append(
     'http://127.0.0.1:{}'.format(port)
 )
+
 
 def up():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
