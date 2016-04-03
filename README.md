@@ -4,7 +4,7 @@ django-cockatiel
 [![Build Status](https://travis-ci.org/raphaelm/django-cockatiel.svg?branch=master)](https://travis-ci.org/raphaelm/django-cockatiel)
 
 This is a django storage backend that makes use of the cockatiel distributed
-file storage. Please read the [cockateal documentation](https://cockatiel.readthedocs.org/)
+file storage. Please read the [cockatiel documentation](https://cockatiel.readthedocs.org/)
 if you are unsure about what this is.
 
 Requirements
