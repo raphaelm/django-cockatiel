@@ -1,4 +1,4 @@
 Django>=1.8
 requests
 pytest
-cockatiel
+git+https://github.com/raphaelm/cockatiel.git@master#egg=cockatiel
