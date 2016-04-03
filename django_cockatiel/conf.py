@@ -1,6 +1,4 @@
-from django.conf import settings
-
 DEFAULT = {
-    'PUBLIC_URL': settings.MEDIA_URL,
+    'PUBLIC_URL': None,
     'STORAGE_NODES': []
 }
